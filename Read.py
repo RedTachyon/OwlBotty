@@ -7,3 +7,6 @@ def getMessage(line):
     separate = line.split(":", 2)
     message = separate[2]
     return message
+
+def getUserMsg(line):
+    return getUser(line), getMessage(line)

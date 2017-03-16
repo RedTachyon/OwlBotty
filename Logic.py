@@ -17,15 +17,15 @@ OWLJOKES = [
 ]
 
 
+def owlBotCommand(message, user=''):
+    pass
 
 def processMessage(message, user=''):
     response = ''
     messageTemp = message.strip()
     spam = False
-    if user == "revlobot" and spam:
-        response = "!owlballs"
 
-    elif messageTemp == "!gg":
+    if messageTemp == "!gg":
         response = "G to the Jizzles!"
 
     elif messageTemp == "!owlbot joke":

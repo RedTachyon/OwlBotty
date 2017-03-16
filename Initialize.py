@@ -1,4 +1,3 @@
-import string
 from Socket import sendMessage
 
 def joinRoom(s):
@@ -14,7 +13,7 @@ def joinRoom(s):
             print(line)
             Loading = loadingComplete(line)
 
-    sendMessage(s, "!owlballs")
+    sendMessage(s, "If anyone's curious, I'm working on an alternate OwlBalls system, with blackjack and hookers.")
 
 
 def loadingComplete(line):
